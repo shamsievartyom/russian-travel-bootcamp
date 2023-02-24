@@ -1,0 +1,14 @@
+.footer__button {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width: 500px) {
+    .footer__button {
+        font-size: 24px;
+        line-height: 24px;
+    }
+}

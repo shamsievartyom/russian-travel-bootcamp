@@ -1,0 +1,21 @@
+.cover__title {
+    margin: auto auto 0;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    text-align: center;
+    max-width: 560px;
+    z-index: 1;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .cover__title {
+        font-size: calc(72px - ((768px - 100vw) * 40/448));
+        line-height: calc(76px - ((768px - 100vw) * 41/448));
+        /*
+        72-32=40 Изменение количества пикселей font-size
+        76-35=41 Изменение количества пикселей line-height
+        768-320=448 Первое разрешение минус второе*/
+    }
+}

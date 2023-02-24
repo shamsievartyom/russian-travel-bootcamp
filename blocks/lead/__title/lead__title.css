@@ -1,0 +1,18 @@
+.lead__title {
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 100px;
+    text-align: center;
+    margin: 0;
+    max-width: 720px;
+}
+
+@media (max-width: 768px) {
+    .lead__title {
+        font-size: calc(96px - ((768px - 100vw) * 56/448));
+        line-height: calc(100px - ((768px - 100vw) * 56/448));
+        /* 96-40=56 Изменение количества пикселей font-size
+        100-44=56 Изменение количества пикселей line-height
+        768-320=448 Первое разрешение минус второе*/
+    }
+}

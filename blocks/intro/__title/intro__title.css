@@ -1,0 +1,16 @@
+.intro__title {
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 58px;
+    margin: 0px;
+}
+
+@media (max-width: 768px) {
+    .intro__title {
+        font-size: calc(54px - ((768px - 100vw) * 22/448));
+        line-height: calc(58px - ((768px - 100vw) * 23/448));
+        /* 54-32=22 Изменение количества пикселей font-size
+        58-35=23 Изменение количества пикселей line-height
+        768-320=448 Первое разрешение минус второе*/
+    }
+}

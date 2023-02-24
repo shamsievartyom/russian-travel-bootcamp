@@ -1,0 +1,24 @@
+.place__image {
+    width: 100%;
+}
+
+@media (max-width: 1024px) {
+    .place__image {
+        max-width: 440px;
+    }
+}
+
+@media (max-width: 768px) {
+    .place__image {
+        max-width: calc(340px - ((768px - 100vw) * 136/267));
+        /*
+        340-204=136 Изменение количества пикселей max-width
+        768-501=267 Первое разрешение минус второе*/
+    }
+}
+
+@media (max-width: 500px) {
+    .place__image {
+        max-width: unset;
+    }
+}

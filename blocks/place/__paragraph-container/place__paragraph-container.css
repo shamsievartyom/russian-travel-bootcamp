@@ -1,0 +1,11 @@
+.place__paragraph-container {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+@media (max-width: 768px) {
+    .place__paragraph-container {
+        gap: 25px;
+    }
+}

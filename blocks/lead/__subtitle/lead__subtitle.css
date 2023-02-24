@@ -1,0 +1,25 @@
+.lead__subtitle {
+    max-width: 640px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .lead__subtitle {
+        font-size: calc(30px - ((768px - 100vw) * 14/448));
+        line-height: calc(36px - ((768px - 100vw) * 16/448));
+        /* 30-16=14 Изменение количества пикселей font-size
+        36-20=16 Изменение количества пикселей line-height
+        768-320=448 Первое разрешение минус второе*/
+    }
+}
+
+@media (max-width: 320px) {
+    .lead__subtitle {
+        margin-top: 16px;
+    }
+}

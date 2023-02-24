@@ -1,0 +1,27 @@
+.cover__subtitle {
+    margin: 32px auto auto;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    max-width: 360px;
+    text-align: center;
+    z-index: 1;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .cover__subtitle {
+        font-size: calc(18px - ((768px - 100vw) * 4/448));
+        line-height: calc(22px - ((768px - 100vw) * 6/448));
+        /*
+        18-14=4 Изменение количества пикселей font-size
+        22-16=6 Изменение количества пикселей line-height
+        768-320=448 Первое разрешение минус второе*/
+    }
+}
+
+@media (max-width: 320px) {
+    .cover__subtitle {
+        margin-top: 16px;
+    }
+}
