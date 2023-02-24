@@ -11,4 +11,4 @@
 
 **Проект**
 
-* [Ссылка на github-pages](////////////////)
+* [Ссылка на github-pages](https://shamsievartyom.github.io/russian-travel-bootcamp/index.html)
