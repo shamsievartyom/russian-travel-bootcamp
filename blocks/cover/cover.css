@@ -6,7 +6,8 @@
     aspect-ratio: 16/10;
     background-image: url(../../images/__background.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    background-position: center;
 }
 
 @media (max-width: 768px) {

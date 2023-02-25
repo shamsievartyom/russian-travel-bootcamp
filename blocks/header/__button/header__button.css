@@ -1,27 +1,19 @@
 .header__button {
-    font-family: inherit;
-    border: none;
-    padding: 0px;
-    cursor: pointer;
-    background-color: inherit;
-    width: 30px;
-    height: 28px;
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
-    color: inherit;
+    color: white;
+    text-decoration: none;
     margin-top: auto;
     margin-bottom: 6px;
 }
 
 .header__button:hover {
-    text-decoration-line: underline;
+    opacity: 0.8;
 }
 
 @media (max-width: 320px) {
     .header__button {
-        width: 22px;
-        height: 20px;
         font-size: 18px;
         line-height: 20px;
         margin-bottom: 8px;
